@@ -1,181 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paintings - Jafrina's Art Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome CDN (for the slider icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Icons from Font Awesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/f08bd1058a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font from Google: Kumbh Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paintings - Jafrina's Art Website</title>
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Font Awesome CDN (for the slider icons) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Icons from Font Awesome Kit -->
-  <script src="https://kit.fontawesome.com/f08bd1058a.js" crossorigin="anonymous"></script>
-  <!-- Font from Google: Kumbh Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet" />
-</head>
-
-<body>
-  <!-- Nav Bar Section -->
-  <nav class="navbar">
-    <div class="navbar__container">
-      <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Jafrina's Art</a>
-      <div class="navbar__toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </div>
-      <ul class="navbar__menu">
-        <li class="navbar__item">
-          <a href="./" class="navbar__links">Home</a>
-        </li>
-        <li class="navbar__item">
-          <a href="./paintings.html" class="navbar__links">Paintings</a>
-        </li>
-        <li class="navbar__item">
-          <a href="./drawings.html" class="navbar__links">Drawings</a>
-        </li>
-        <li class="navbar__btn">
-          <a href="./recommendations.html" class="button">Recommendations?</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Slider Section -->
-  <div class="slider__container">
-    <div class="slide">
-      <div class="item" style="background-image: url('images/personalPaintings/library.jpeg')">
-        <div class="content">
-          <div class="name">Library</div>
-          <div class="des">
-            Oil Painting: January 2025
-          </div>
-          <button>See More</button>
+  <body>
+    <!-- Nav Bar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"
+          ><i class="fas fa-gem"></i>Jafrina's Art</a
+        >
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="./" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./paintings.html" class="navbar__links">Paintings</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./drawings.html" class="navbar__links">Drawings</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="./recommendations.html" class="button">Recommendations?</a>
+          </li>
+        </ul>
       </div>
-      <div class="item" style="
-            background-image: url('images/personalPaintings/europeanBalcony.jpeg');
-          ">
-        <div class="content">
-          <div class="name">European Balcony</div>
-          <div class="des">
-            Oil Painting: December 2024
+    </nav>
+    <!-- Slider Section -->
+    <div class="slider__container">
+      <div class="slide">
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/library.jpeg')">
+          <div class="content">
+            <div class="name">Library</div>
+            <div class="des">Oil Painting: January 2025</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="
-            background-image: url('images/personalPaintings/lakeAndTree.jpeg');
-          ">
-        <div class="content">
-          <div class="name">Lake & Tree</div>
-          <div class="des">
-            Oil Painting: May 2023 - August 2023
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/europeanBalcony.jpeg');">
+          <div class="content">
+            <div class="name">European Balcony</div>
+            <div class="des">Oil Painting: December 2024</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="background-image: url('images/personalPaintings/lake.jpeg')">
-        <div class="content">
-          <div class="name">Lake</div>
-          <div class="des">
-            Oil Painting: July 2023
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/lakeAndTree.jpeg');">
+          <div class="content">
+            <div class="name">Lake & Tree</div>
+            <div class="des">Oil Painting: May 2023 - August 2023</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="background-image: url('images/personalPaintings/tree.jpeg')">
-        <div class="content">
-          <div class="name">Tree</div>
-          <div class="des">
-            Oil Painting: May 2023
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/lake.jpeg')">
+          <div class="content">
+            <div class="name">Lake</div>
+            <div class="des">Oil Painting: July 2023</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/tree.jpeg')">
+          <div class="content">
+            <div class="name">Tree</div>
+            <div class="des">Oil Painting: May 2023</div>
+            <button>See More</button>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="
             background-image: url('images/personalPaintings/stormySky.jpeg');">
-        <div class="content">
-          <div class="name">Stormy Sky</div>
-          <div class="des">
-            Oil Painting: May 2024
+          <div class="content">
+            <div class="name">Stormy Sky</div>
+            <div class="des">Oil Painting: May 2024</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="background-image: url('images/personalPaintings/sunset.jpeg')">
-        <div class="content">
-          <div class="name">Sunset</div>
-          <div class="des">
-            Oil Painting: May 2024
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/sunset.jpeg')">
+          <div class="content">
+            <div class="name">Sunset</div>
+            <div class="des">Oil Painting: May 2024</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="
+        <div
+          class="item"
+          style="
             background-image: url('images/personalPaintings/purpleFlower.jpeg');">
-        <div class="content">
-          <div class="name">Purple Flower</div>
-          <div class="des">
-            Acrylic Painting: October 2018
+          <div class="content">
+            <div class="name">Purple Flower</div>
+            <div class="des">Acrylic Painting: October 2018</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
         </div>
-      </div>
-      <div class="item" style="
+        <div
+          class="item"
+          style="
             background-image: url('images/personalPaintings/pinkFlower.jpeg');">
-        <div class="content">
-          <div class="name">Pink Flowers</div>
-          <div class="des">
-            Acrylic Painting: March 2019
+          <div class="content">
+            <div class="name">Pink Flowers</div>
+            <div class="des">Acrylic Painting: March 2019</div>
+            <button>See More</button>
           </div>
-          <button>See More</button>
+        </div>
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/ghost.jpeg')">
+          <div class="content">
+            <div class="name">Ghost On A Picnic</div>
+            <div class="des">Acrylic Painting: February 2020</div>
+            <button>See More</button>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="background-image: url('images/personalPaintings/dog.jpeg')">
+          <div class="content">
+            <div class="name">Luna The Dog</div>
+            <div class="des">Acrylic Painting: May 2019</div>
+            <button>See More</button>
+          </div>
+        </div>
+        <div
+          class="item"
+          style="
+            background-image: url('images/personalPaintings/miniNature.jpeg');">
+          <div class="content">
+            <div class="name">Small Nature Paintings</div>
+            <div class="des">Acrylic Painting: February 2017</div>
+            <button>See More</button>
+          </div>
         </div>
       </div>
-      <div class="item" style="background-image: url('images/personalPaintings/ghost.jpeg')">
-        <div class="content">
-          <div class="name">Ghost On A Picnic</div>
-          <div class="des">
-            Acrylic Painting: February 2020
-          </div>
-          <button>See More</button>
-        </div>
-      </div>
-      <div class="item" style="background-image: url('images/personalPaintings/dog.jpeg')">
-        <div class="content">
-          <div class="name">Luna The Dog</div>
-          <div class="des">
-            Acrylic Painting: May 2019
-          </div>
-          <button>See More</button>
-        </div>
-      </div>
-      <div class="item" style="
-            background-image: url('images/personalPaintings/miniNature.jpeg');
-          ">
-        <div class="content">
-          <div class="name">Small Nature Paintings</div>
-          <div class="des">
-            Acrylic Painting: February 2017
-          </div>
-          <button>See More</button>
-        </div>
+      <!-- Slider Arrows -->
+      <div class="slider__button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
-    <div class="slider__button">
-      <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
-      <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+    <!-- Modal Popup of Image -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal__content" id="modalImage" alt="Popup Image" />
     </div>
-  </div>
-  <!-- Modal Popup of Image -->
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal__content" id="modalImage" alt="Popup Image" />
-  </div>
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>

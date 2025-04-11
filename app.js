@@ -12,7 +12,7 @@ menu.addEventListener('click', function() {
 // ==================================================
 // Slider Functionality: Slide Items Next/Prev
 // ==================================================
-// Mobile-responsive check: run slider functionality only if screen width is greater than 768px
+// Run Slider Functionality Only If Screen Width Is Greater Than 768px
 if (window.innerWidth > 768) {
     let next = document.querySelector('.next');
     let prev = document.querySelector('.prev');

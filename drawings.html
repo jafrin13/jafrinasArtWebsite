@@ -1,85 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Drawings - Jafrina's Art Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Paintings - Jafrina's Art Website</title>
+    <link rel="stylesheet" href="styles.css" />
     <!-- Font Awesome CDN (for the slider icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- Icons from Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/f08bd1058a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/f08bd1058a.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Font from Google: Kumbh Sans -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <!-- Nav Bar Section -->
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>Jafrina's Art</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="./" class="navbar__links">Home</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="./paintings.html" class="navbar__links">Paintings</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="./drawings.html" class="navbar__links">Drawings</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="./recommendations.html" class="button">Recommendations?</a>
-                </li>
-            </ul>
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"
+          ><i class="fas fa-gem"></i>Jafrina's Art</a
+        >
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="./" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./paintings.html" class="navbar__links">Paintings</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./drawings.html" class="navbar__links">Drawings</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="./recommendations.html" class="button">Recommendations?</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- Slider Section -->
     <div class="slider__container">
-        <div class="slide">
-            <div class="item" style="background-image: url('images/personalDrawings/dojaTheCat.jpg');">
-                <div class="content">
-                    <div class="name">Doja The Cat</div>
-                    <div class="des">My friend's orange cat!</div>
-                    <button>See More</button>
-                </div>
-            </div>
-            <div class="item" style="background-image: url('images/personalDrawings/sunflowers.jpeg');">
-                <div class="content">
-                    <div class="name">Sunflowers</div>
-                    <div class="des"></div>
-                    <button>See More</button>
-                </div>
-            </div>
-            <div class="item" style="background-image: url('images/personalDrawings/bus.jpeg');">
-                <div class="content">
-                    <div class="name">Bus</div>
-                    <div class="des">Sketches from the COVID-19 pandemic.</div>
-                    <button>See More</button>
-                </div>
-            </div>
+      <div class="slide">
+        <div
+          class="item"
+          style="background-image: url('images/personalDrawings/dojaTheCat.jpg');">
+          <div class="content">
+            <div class="name">Doja The Cat</div>
+            <div class="des">My friend's orange cat!</div>
+            <button>See More</button>
+          </div>
         </div>
-        <div class="slider__button">
-            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
-            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        <div
+          class="item"
+          style="background-image: url('images/personalDrawings/sunflowers.jpeg');">
+          <div class="content">
+            <div class="name">Sunflowers</div>
+            <div class="des">Based on a picture my cousin took.</div>
+            <button>See More</button>
+          </div>
         </div>
+        <div
+          class="item"
+          style="background-image: url('images/personalDrawings/bus.jpeg')">
+          <div class="content">
+            <div class="name">Bus</div>
+            <div class="des">Sketches from the COVID-19 pandemic.</div>
+            <button>See More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Slider Arrows -->
+      <div class="slider__button">
+        <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
     </div>
-    <!-- Modal Popup of Image (Hidden by Default) -->
+    <!-- Modal Popup of Image -->
     <div id="myModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal__content" id="modalImage" alt="Popup Image">
+      <span class="close">&times;</span>
+      <img class="modal__content" id="modalImage" alt="Popup Image" />
     </div>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
